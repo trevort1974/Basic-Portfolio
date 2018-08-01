@@ -1,0 +1,175 @@
+header {
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    border-bottom-width: 20px;
+    border-bottom: 3px solid #cccccc;
+    width: 100%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 70px;
+    
+}
+.headername {
+    float: left;
+    margin-left: 270px;
+    margin-top: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 56px;
+    text-align: center;
+}
+
+nav{
+   float: right;
+   margin-right: 320px;
+   margin-top: 25px;
+   
+}
+a {
+    text-decoration: none;
+    color: #777777;
+}
+.background {
+    background-color: #f2f9ff;
+    position: relative;
+    height: 700px;
+    top: 22px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.aboutme {
+    position: absolute;
+    top: 80px;
+    left: 160px;
+    right: 200px;
+    bottom: 200px;
+    background-color: white;
+    padding: 30px;
+}
+
+.aboutme1 {
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    right: 250px;
+    bottom: 10px;
+    background-color: white;
+    padding: 30px;
+}
+
+h2 {
+    color: #4aaaa5;
+    margin-top: 10px;
+}
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 150px;
+}
+.trim {
+    background-color: #4aaaa5;
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+    height: 5px;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #666666;
+    height: 40px;
+    width: 100%;
+}
+h4 {
+    text-align: left;
+    margin: 5px 0px 5px 0px;
+    color: #777777;
+   
+}
+h5 {
+    text-align: center;
+    color: #ffffff;
+}
+button {
+    font-size: 12px;
+    height: 30px;
+    width: 80px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+}
+.textarea {
+   height: 500px;
+   width: 500px;
+   
+}
+input {
+    width: 1150px;
+    height: 25px;
+}
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    
+}
+p {
+    color: #777777;
+}
+form {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    right: 100px;
+    bottom: 400px;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    
+ }
+
+ .photo1 {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 200px;
+
+ }
+ .photo2 {
+    float: left;
+    margin-left: 20px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 200px;
+ }
+ .photo3 {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 200px;
+ }
+ .photo4 {
+    float: left;
+    margin-left: 20px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 200px;
+ }
+ .photo5 {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 200px;
+ }

@@ -5,24 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style1.css">
 </head>
-<header><h1>Trevor Treece</h1><nav>
-        <a href="about">About</a> |
-        <a href="portfolio">Portfolio</a> |
-        <a href="contact">Contact</a> |
-    </nav>
-    </header>
+
 <body>
-    <h2>Contact</h2>
-    <hr />
-    <form action="email" method="POST">
-        <h5>Name</h5>
-        <p><input type="text" name="name" placeholder="John Smith"></p>
-        <h5>Email</h5>
-        <p><input type="text" name="email" placeholder="example@gmail.com"></p>
-        <h5>Message</h5>
-        <p><input type="text" name="message" placeholder=""></p>
-        <button type="Submit" class="w3-btn" value="Submit"></button>
-    </form>   
+    <header>
+        <h1 class="headername">Trevor Treece</h1> 
+        <nav>
+            <a href="about.html">About</a> |
+            <a href="portfolio.html">Portfolio</a> |
+            <a href="contact.html">Contact</a> 
+        </nav>
+    </header>
+
+    <div class="background">
+        <div class="aboutme">
+        <h2>Contact</h2>
+        <hr />
+
+        <form action="email" method="POST">
+            <h4>Name</h4>
+            <input type="text" name="name" placeholder="John Smith">
+            <h4>Email</h4>
+            <input type="text" name="email" placeholder="example@gmail.com">
+            <h4>Message</h4>
+            <textarea name="message" cols="162" rows="8"></textarea>
+            <div>
+            <button type="Submit" class="w3-btn" value="Submit">Submit</button>
+        </form> 
+
+    </div>
+</div>
+
+<div class="trim"></div>
+    <footer>
+        <h5>Copyright &copy</h5>
+    </footer>
 </body>
 </html>
